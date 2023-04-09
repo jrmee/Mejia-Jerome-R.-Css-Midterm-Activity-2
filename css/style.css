@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    }
+    
+    /* style for the landing section */
+    
+    #landing {
+      background-image: url("../img/landing-img.jpg");
+      background-size: cover;
+      background-position: center;
+      height: 550px; /* Set a height for the section to make the background image visible */
+      text-align: center; /* Center the text vertically and horizontally */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-top: 10px;
+    }
+    
+    #landing h1 {
+     font-size: 46px;
+     text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+     color: #fffcfc;
+     margin-bottom: 10px;
+    }
+    
+    #landing p {
+     font-size: 18px;
+     color: #fffcfc;
+     text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+    }
+    
+    /* style for the blog section */
+    
+    .new-line {
+      display: block;
+    }
+    
+    #blog {
+      display: grid;
+      width: 80%;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 10px;
+      margin-bottom: 40px;
+      margin-top: 40px;
+      margin-left: 140px;
+    }
+    
+    #blog > div {
+      background-color: #f2f2f2;
+      padding: 20px;
+      text-align: left;
+    }
+    
+    #blog > div:hover {
+      background-color: #1a1717;
+      color: #fcf7f7;
+    }
+    
+    #blog > div img {
+      max-width: 100%;
+    }
+    
+    #blog > div h3 {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    
+    h2{
+      text-align: center;
+      margin-top: 30px;
+    }
+    
+    #blog > div p {
+      font-size: 14px;
+      line-height: 1.5;
+    }
+    
+    #blog > div a {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 5px 10px;
+      color: #8c8888;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+    
+    /* style for the services section */
+    
+    #services {
+      display: table;
+      width: 90%;
+      border-spacing: 10px;
+      background-color: #d4cfcf;
+      margin-bottom: 40px;
+      margin-top: 40px;
+      margin-left: 70px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    
+    #services h2 {
+      text-align: center;
+      margin-top: 80px; 
+    }
+    
+    #services ul {
+      display: table-row;
+      margin-bottom: 80px;
+    
+    }
+    
+    #services ul li {
+       display:inline;
+       background-color: #fcfafa;
+       padding:13px 17px 13px 17px;
+       font-size: 12px;
+       
+    }
+    
+    #services ul li:hover {
+       background-color: #ff4800;
+    
+    #services li {
+      display: table-cell;
+      width: 10%;
+      font-size: 12px;
+      font-weight: bold;
+      text-align: center;
+      padding: 15px;
+      vertical-align: middle;
+      background-color: #fcfafa;
+    
+    }
+    
+    
+    #services button {
+      display: block;
+      margin-top: 20px;
+      margin: 20px auto 0;
+      padding: 10px 20px;
+      background-color: #333;
+      color: #fff;
+      border: none;
+      border-radius: 50px;
+      font-size: 16px;
+    }
+    
